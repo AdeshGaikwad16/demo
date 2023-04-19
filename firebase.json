@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDHQzw5JgoDBa0NwCQig9SwJbURNmYE96c",
+  authDomain: "scrum-board-3b1ec.firebaseapp.com",
+  projectId: "scrum-board-3b1ec",
+  storageBucket: "scrum-board-3b1ec.appspot.com",
+  messagingSenderId: "841930121892",
+  appId: "1:841930121892:web:8a6abade3df71b2235fc31"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
